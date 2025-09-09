@@ -7,7 +7,7 @@ on:
 
 jobs:
   call-reusable-workflow:
-    uses: Tontico/node-ci-example/ .github/workflows/reusable-workflow.yml@main
+    uses: Tontico/node-ci-example/.github/workflows/reusable-workflow.yml@main
     with:
       name: 'Tontico'
       run-tests: true
